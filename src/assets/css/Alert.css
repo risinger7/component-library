@@ -1,0 +1,43 @@
+.redAlert {
+    background-color: rgb(235, 81, 81);
+}
+
+.blueAlert {
+    background-color: rgb(81, 230, 235);
+}
+
+.whiteAlert {
+    background-color: #f2f5f3;
+}
+
+.noBackgroundAlert {
+    background-color: none;
+}
+
+.alert {
+    min-width: 400px;
+    min-height: 80px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.85);
+    border: 2px solid #f2f5f3;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;  
+}
+
+.hidden {
+    display: none;
+}

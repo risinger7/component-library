@@ -1,0 +1,45 @@
+
+.redBadge {
+    background-color: rgb(235, 81, 81);
+}
+
+.blueBadge {
+    background-color: rgb(81, 230, 235);
+}
+
+.whiteBadge {
+    background-color: #f2f5f3;
+    color: black;
+}
+
+.badgeSmall {
+    height: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.badgeMedium {
+    height: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.badgeBig {
+    height: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.badge-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin: 2px;
+    border-radius: 20px;
+}
+
+.badge-icon {
+    padding-right: 4px;
+}
